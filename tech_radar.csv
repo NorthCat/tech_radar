@@ -1,5 +1,13 @@
 name,ring,quadrant,isNew,description
-Python 3,Adopt,languages-and-frameworks,FALSE,Основной язык разработки
-Kubernetes,Adopt,Platforms,FALSE,Функциональная платформа оркестарции контейнеров.
-PostgreSQL,Adopt,data-management,FALSE,Основная OLTP СУБД
-Locust,Adopt,Tools,FALSE,Инструмент для нагрузочного тестирования
+Python 3,Adopt,Languages & Frameworks,FALSE,Основной язык бэк-разработки
+JavaScript,Adopt,Languages & Frameworks,FALSE,Основной язык фронт-разработки
+HAProxy,Adopt,Platform & Infrastructure,FALSE,Сервер для балансирования HTTP/TCP запросов
+Grafana,Adopt,Platform & Infrastructure,FALSE,Графический интерфейс мониторинга
+Nginx,Adopt,Platform & Infrastructure,FALSE,"Производительный HTTP-сервер, используется в роли балансировщика и для раздачи статики"
+Docker,Adopt,Platform & Infrastructure,FALSE,Популярная система контейнеризации
+Kubernetes,Adopt,Platform & Infrastructure,FALSE,Функциональная платформа оркестарции контейнеров.
+ConcourseCI,Trial,Platform & Infrastructure,FALSE,Сервер сборки CI/CD
+Jenkins,Adopt,Platform & Infrastructure,FALSE,"Программная система с открытым исходным кодом на Java, предназначенная для обеспечения процесса непрерывной интеграции программного обеспечения."
+PostgreSQL,Adopt,Data Management,FALSE,Основная OLTP СУБД
+Locust,Adopt,Techniques & Tools,FALSE,Инструмент для нагрузочного тестирования
+Birt,Hold,Techniques & Tools,FALSE,The Business Intelligence and Reporting Tools - инструмент для построения отчетов в ReportServer
