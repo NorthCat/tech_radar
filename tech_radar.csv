@@ -1,0 +1,5 @@
+name,ring,quadrant,isNew,description
+Python 3,Adopt,languages-and-frameworks,FALSE,Основной язык разработки
+Kubernetes,Adopt,Platforms,FALSE,Функциональная платформа оркестарции контейнеров.
+PostgreSQL,Adopt,data-management,FALSE,Основная OLTP СУБД
+Locust,Adopt,Tools,FALSE,Инструмент для нагрузочного тестирования
