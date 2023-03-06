@@ -1,6 +1,12 @@
 name,ring,quadrant,isNew,description
 Python 3,Adopt,Languages & Frameworks,FALSE,Основной язык бэк-разработки
 JavaScript,Adopt,Languages & Frameworks,FALSE,Основной язык фронт-разработки
+Angular,Adopt,Languages & Frameworks,FALSE,Открытая и свободная платформа для разработки веб-приложений
+Marshmallow 2,Hold,Languages & Frameworks,FALSE,Библиотека для сериализации и валидации данных. Заменяется на Pydantic
+Pydantic,Adopt,Languages & Frameworks,FALSE,Библиотека для сериализации и валидации данных. Заменяется на Pydantic
+asyncpg,Hold,Languages & Frameworks,FALSE,Python open-source библиотека для работы с PostgreSQL. Заменяется на SQLALchemy
+Gino,Hold,Languages & Frameworks,FALSE,ORM для работы с БД. Заменяется на SQLALchemy
+SQLALchemy,Adopt,Languages & Frameworks,FALSE,ORM для работы с БД
 HAProxy,Adopt,Platform & Infrastructure,FALSE,Сервер для балансирования HTTP/TCP запросов
 Grafana,Adopt,Platform & Infrastructure,FALSE,Графический интерфейс мониторинга
 Nginx,Adopt,Platform & Infrastructure,FALSE,"Производительный HTTP-сервер, используется в роли балансировщика и для раздачи статики"
@@ -8,6 +14,11 @@ Docker,Adopt,Platform & Infrastructure,FALSE,Популярная система
 Kubernetes,Adopt,Platform & Infrastructure,FALSE,Функциональная платформа оркестарции контейнеров.
 ConcourseCI,Trial,Platform & Infrastructure,FALSE,Сервер сборки CI/CD
 Jenkins,Adopt,Platform & Infrastructure,FALSE,"Программная система с открытым исходным кодом на Java, предназначенная для обеспечения процесса непрерывной интеграции программного обеспечения."
+Firebase,Adopt,Platform & Infrastructure,FALSE,Облачная СУБД. Используется для push-уведомлений
+Kafka,Assess ,Data Management,FALSE,"Kafka — распределенная система обмена сообщениями, узлы которой содержатся на нескольких кластерах. "
+RabbitMQ,Adopt,Data Management,FALSE,RabbitMQ – это брокер сообщений с открытым исходным кодом
+Elasticsearch,Adopt,Data Management,FALSE,Движок полнотекстого поиска
+Redis,Adopt,Data Management,FALSE,"Redis — это база данных, размещаемая в памяти, которая используется, в основном, в роли кеша"
 PostgreSQL,Adopt,Data Management,FALSE,Основная OLTP СУБД
 Locust,Adopt,Techniques & Tools,FALSE,Инструмент для нагрузочного тестирования
 Birt,Hold,Techniques & Tools,FALSE,The Business Intelligence and Reporting Tools - инструмент для построения отчетов в ReportServer
