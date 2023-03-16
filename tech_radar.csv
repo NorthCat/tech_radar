@@ -7,6 +7,13 @@ Pydantic,Adopt,Languages & Frameworks,FALSE,Библиотека для сери
 asyncpg,Hold,Languages & Frameworks,FALSE,Python open-source библиотека для работы с PostgreSQL. Заменяется на SQLALchemy
 Gino,Hold,Languages & Frameworks,FALSE,ORM для работы с БД. Заменяется на SQLALchemy
 SQLALchemy,Adopt,Languages & Frameworks,FALSE,ORM для работы с БД
+Java,Adopt,Languages & Frameworks,FALSE,Вспомогательный язык разработки. Используется для создания провайдера Keycloack
+Django,Hold,Languages & Frameworks,FALSE,Фреймворк для разработки веб-приложений
+aiohttp,Hold,Languages & Frameworks,FALSE,Фреймворк для разработки веб-приложений
+FastAPi,Adopt,Languages & Frameworks,FALSE,Фреймворк для разработки веб-приложений
+asincio,Adopt,Languages & Frameworks,FALSE,Библиотека для написания асинхронного кода
+black,Adopt,Languages & Frameworks,FALSE,Пакет Python для форматирования вашего кода в соответствии с предопределенным руководством по стилю в одной команде
+flake8,Adopt,Languages & Frameworks,FALSE,"Инструмент, позволяющий просканировать код проекта и обнаружить в нем стилистические ошибки и нарушения различных конвенций кода на Python"
 HAProxy,Adopt,Platform & Infrastructure,FALSE,Сервер для балансирования HTTP/TCP запросов
 Grafana,Adopt,Platform & Infrastructure,FALSE,Графический интерфейс мониторинга
 Nginx,Adopt,Platform & Infrastructure,FALSE,"Производительный HTTP-сервер, используется в роли балансировщика и для раздачи статики"
@@ -15,10 +22,39 @@ Kubernetes,Adopt,Platform & Infrastructure,FALSE,Функциональная п
 ConcourseCI,Trial,Platform & Infrastructure,FALSE,Сервер сборки CI/CD
 Jenkins,Adopt,Platform & Infrastructure,FALSE,"Программная система с открытым исходным кодом на Java, предназначенная для обеспечения процесса непрерывной интеграции программного обеспечения."
 Firebase,Adopt,Platform & Infrastructure,FALSE,Облачная СУБД. Используется для push-уведомлений
+Hasura,Adopt,Platform & Infrastructure,FALSE,Высокопроизводительный легковесный GraphQL сервер
+ElasticAPM,Adopt,Platform & Infrastructure,FALSE,Инструмент для работы с метриками
+Istio,Adopt,Platform & Infrastructure,FALSE,Service Mesh с открытым исходным кодом
+ReportServer,Adopt,Platform & Infrastructure,FALSE,Программная серверная система создания отчётов
+OpenProject,Adopt,Platform & Infrastructure,FALSE,Инструмент управления проектами
+Jira,Hold,Platform & Infrastructure,FALSE,Инструмент управления проектами
+Confluence,Hold,Platform & Infrastructure,FALSE,Тиражируемая вики-система для внутреннего использования организациями с целью создания единой базы знаний
+Supervisord,Adopt,Platform & Infrastructure,FALSE,"Демон и служба, позволяющая обеспечивать непрерывную работу критичных сервисов"
+Harbor,Adopt,Platform & Infrastructure,FALSE,Реестр для Docker-контейнеров
+Keycloack,Adopt,Platform & Infrastructure,FALSE,Продукт с открытым кодом для реализации single sign-on
+Sonatype Nexus,Adopt,Platform & Infrastructure,FALSE,"Платформа, с помощью которой разработчики могут проксировать, хранить и управлять зависимостями"
+Bazel,Adopt,Platform & Infrastructure,FALSE,Позволяет собирать проекты на любых языках программирования
+VM,Hold,Platform & Infrastructure,FALSE,Виртуальные машины используются для развертывания приложений в старой инфраструктуре
+Mountebank,Assess ,Platform & Infrastructure,FALSE,"Инструмент, который позволяет быстро и очень гибко мокировать API прямо из автотестов без необходимости писать свой веб-сервис."
 Kafka,Assess ,Data Management,FALSE,"Kafka — распределенная система обмена сообщениями, узлы которой содержатся на нескольких кластерах. "
 RabbitMQ,Adopt,Data Management,FALSE,RabbitMQ – это брокер сообщений с открытым исходным кодом
 Elasticsearch,Adopt,Data Management,FALSE,Движок полнотекстого поиска
 Redis,Adopt,Data Management,FALSE,"Redis — это база данных, размещаемая в памяти, которая используется, в основном, в роли кеша"
 PostgreSQL,Adopt,Data Management,FALSE,Основная OLTP СУБД
+Prometheus ,Assess ,Data Management,FALSE,База данных временных рядов
+InfluxDB,Assess ,Data Management,FALSE,СУБД с открытым исходным кодом для хранения временных рядов
+Kafka Connect,Assess ,Data Management,FALSE,Инструмент предназначен для перемещения данных между Apache Kafka и другими хранилищами данных
+Debezium ,Assess ,Data Management,FALSE,Debezium — это инструмент для захвата изменений в базах данных (Change Data Capture) и отправки их на обработку в другие системы
 Locust,Adopt,Techniques & Tools,FALSE,Инструмент для нагрузочного тестирования
 Birt,Hold,Techniques & Tools,FALSE,The Business Intelligence and Reporting Tools - инструмент для построения отчетов в ReportServer
+Swagger,Adopt,Techniques & Tools,FALSE,Фреймворк для спецификации RESTful API
+JWT,Adopt,Techniques & Tools,FALSE,"Открытый стандарт (RFC 7519) для создания токенов доступа, основанный на формате JSON"
+SSO,Adopt,Techniques & Tools,FALSE,"Метод проверки подлинности, позволяющий пользователям входить в систему, используя один набор учетных данных для нескольких независимых систем программного обеспечения"
+REST,Adopt,Techniques & Tools,FALSE,Стиль архитектуры программного обеспечения для распределенных систем
+HATEOAS,Adopt,Techniques & Tools,FALSE,Правило архитектуры REST-приложения
+SOAP,Adopt,Techniques & Tools,FALSE,Протокол обмена структурированными сообщениями в распределённой вычислительной среде
+gRPC,Adopt,Techniques & Tools,FALSE,Фреймворк для удаленного вызова процедур
+GraphQL,Adopt,Techniques & Tools,FALSE,"Язык запросов для взаимодействия клиента и сервера, а также среда исполнения этих запросов"
+WebSockets,Adopt,Techniques & Tools,FALSE,"Технология, которая позволяет создавать интерактивное соединение между клиентом (браузером) и сервером для обмена сообщениями в режиме реального времени."
+Docker Compose,Adopt,Techniques & Tools,FALSE,Средство для определения и запуска приложений Docker с несколькими контейнерами
+Selenium,Adopt,Techniques & Tools,FALSE,Инструмент для автоматизированного управления браузерами
