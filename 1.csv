@@ -1,3 +1,4 @@
 name,ring,quadrant,isNew,description
 Python 3,Adopt,Languages & Frameworks,FALSE,Основной язык бэк-разработки
+HAProxy,Adopt,Platforms,FALSE,Сервер для балансирования HTTP/TCP запросов
 
